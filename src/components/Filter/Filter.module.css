@@ -2,6 +2,12 @@
   padding: 0 10rem 0 3rem;
 }
 
+.stick {
+  position: sticky;
+  top: 20px;
+  margin-bottom: 2rem;
+}
+
 .title {
   font-size: 28px;
   margin-bottom: 2rem;
