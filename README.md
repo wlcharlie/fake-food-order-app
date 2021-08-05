@@ -1,8 +1,6 @@
 # REACT - Fake food order app
 
-## 待修正問題
-
-- 圖片
+[LIVE DEMO](https://wlcharlie.github.io/fake-food-order-app/)
 
 ## 待優化
 

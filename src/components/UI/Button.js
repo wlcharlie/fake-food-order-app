@@ -116,7 +116,15 @@ const Button = props => {
       {props.styles !== "filterButton" && (
         <div className={props.styles === "promo" ? "" : classes.center}>
           <button className={classes[props.styles]}>
-            {props.image && <img src={props.image} alt="category" />}
+            {props.image && (
+              <img
+                src={
+                  require(`../../images/category/${props.image}.png`).default
+                }
+                // src={props.image}
+                alt="category"
+              />
+            )}
             {props.icon && <i className={props.icon}></i>}
             {props.text && <div>{props.text}</div>}
             {props.time && <div>．{props.time}</div>}
