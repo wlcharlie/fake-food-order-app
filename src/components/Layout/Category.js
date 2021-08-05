@@ -19,7 +19,7 @@ const processCategory = (width, data) => {
     return (
       <Button
         styles="category"
-        image={`/category/${e}.png`}
+        image={`https://d4p17acsd5wyj.cloudfront.net/shortcuts/cuisines/${e}.png`}
         text={text}
         key={e}
       />
