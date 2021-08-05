@@ -1,0 +1,28 @@
+.info {
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border-bottom: 1px solid white;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.info li {
+  margin-bottom: 1.5rem;
+}
+
+.images {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.images div {
+  display: flex;
+}

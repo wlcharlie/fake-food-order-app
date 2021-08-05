@@ -1,0 +1,9 @@
+.center {
+  display: flex;
+  margin: auto 0;
+}
+
+.sized {
+  width: 150px;
+  padding: 0 5px 0 0;
+}

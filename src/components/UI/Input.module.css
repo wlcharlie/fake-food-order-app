@@ -1,0 +1,24 @@
+.center {
+  display: flex;
+  margin: auto 0;
+  align-items: center;
+}
+
+.search {
+  background-color: #f0f0f0;
+  padding: 1.3rem;
+  box-shadow: #dbdbdb 0 -1px 0 inset;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.search:focus-within {
+  box-shadow: #000000 0 -2px 0 inset;
+}
+
+.search label {
+  color: #797979;
+}
+
+.search input:focus {
+  border-bottom: 1px solid black;
+}

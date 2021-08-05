@@ -1,0 +1,32 @@
+.service {
+  color: white;
+  margin: 2rem 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.service i {
+  margin: 0 1.5rem 0 0;
+}
+
+.service ul {
+  display: flex;
+}
+
+.service a {
+  text-decoration: none;
+  color: white;
+}
+
+.service a:hover {
+  text-decoration: underline;
+}
+
+.service li {
+  margin-right: 1.5rem;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: flex-end;
+}
