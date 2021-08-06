@@ -12,6 +12,16 @@
 
 [React-device-detect](https://www.npmjs.com/package/react-device-detect)
 
+[Axios]
+
+### 奇特的 API 資料
+
+_外送時間的部分...只能隨機抓裡面的數字去算 XD_
+
+API from Travel Advisor via RapidApi
+
+[LINK](https://rapidapi.com/apidojo/api/travel-advisor/)
+
 ### 無限 Slider
 
 \*1024px 以上的效果
