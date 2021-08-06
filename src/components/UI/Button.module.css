@@ -60,3 +60,13 @@ i {
   color: white;
   background-color: black;
 }
+
+@media screen and (max-device-width: 768px) {
+  .center {
+    margin: 0;
+  }
+
+  .cartRight {
+    justify-content: flex-end;
+  }
+}

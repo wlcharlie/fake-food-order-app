@@ -30,16 +30,29 @@ const Card = styled.li`
   }
 
   & h3 {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
 
   & h6 {
-    font-size: 0.7vw;
+    font-size: 1vw;
   }
 
   & h3,
   & h6 {
     padding: 1rem 0 0 1rem;
+  }
+
+  @media screen and (max-device-width: 768px) {
+    width: calc(90vw - 24px);
+    height: 20vw;
+
+    & h3 {
+      font-size: 3.5vw;
+    }
+
+    & h6 {
+      font-size: 2vw;
+    }
   }
 `
 

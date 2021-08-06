@@ -1,4 +1,5 @@
 import { useState, useReducer, useEffect } from "react"
+import { useMediaQuery } from "react-responsive"
 
 import classes from "./Promo.module.css"
 
@@ -11,10 +12,6 @@ const initPromos = data => {
 }
 
 const Promo = props => {
-  const [promos] = useReducer(null, props.data, initPromos)
-  const [x, setX] = useState(-300)
-  const [time, setTime] = useState(0.5)
-  const [pointer, setPointer] = useState(0)
   const scroll = event => {
     if (event.target.dataset.name === "rightBtn") {
       setPointer(prev => (prev += 1))
@@ -25,11 +22,21 @@ const Promo = props => {
     }
   }
 
+  const isWidth768 = useMediaQuery({ query: "(max-width: 768px)" })
+
+  const middle = isWidth768 ? 0 : -300
+  const bound = isWidth768 ? 9 : 3
+
+  const [promos] = useReducer(null, props.data, initPromos)
+  const [x, setX] = useState(middle)
+  const [time, setTime] = useState(0.5)
+  const [pointer, setPointer] = useState(0)
+
   useEffect(() => {
-    if (pointer === 3) {
+    if (pointer === bound) {
       setTime(0)
       setTimeout(() => {
-        setX(-300)
+        setX(middle)
         setPointer(0)
       }, 500)
       setTimeout(() => {
@@ -37,10 +44,10 @@ const Promo = props => {
       }, 600)
     }
 
-    if (pointer === -3) {
+    if (pointer === -bound) {
       setTime(0)
       setTimeout(() => {
-        setX(-300)
+        setX(middle)
         setPointer(0)
       }, 500)
       setTimeout(() => {

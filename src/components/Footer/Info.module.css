@@ -26,3 +26,13 @@
 .images div {
   display: flex;
 }
+
+@media screen and (max-device-width: 768px) {
+  .info {
+    display: block;
+  }
+
+  .images {
+    margin-bottom: 2rem;
+  }
+}

@@ -114,7 +114,11 @@ const Button = props => {
         </div>
       )}
       {props.styles !== "filterButton" && (
-        <div className={props.styles === "promo" ? "" : classes.center}>
+        <div
+          className={`${props.styles === "promo" ? "" : classes.center} ${
+            props.styles === "cart" && classes.cartRight
+          }`}
+        >
           <button className={classes[props.styles]}>
             {props.image && (
               <img

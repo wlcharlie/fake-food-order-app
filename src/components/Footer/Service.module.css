@@ -30,3 +30,9 @@
   display: flex;
   justify-content: flex-end;
 }
+
+@media screen and (max-device-width: 768px) {
+  .service {
+    grid-template-columns: 1fr;
+  }
+}

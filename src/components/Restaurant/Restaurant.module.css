@@ -1,6 +1,35 @@
-.restaurant {
+/* .restaurant {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+} */
+
+.restaurant {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 1.5rem 0 0;
+}
+
+@media screen and (max-device-width: 1440px) {
+  .restaurant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .restaurant {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-device-width: 768px) {
+  .restaurant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 0 0;
+  }
 }

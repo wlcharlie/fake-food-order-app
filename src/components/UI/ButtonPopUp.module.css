@@ -1,0 +1,13 @@
+i {
+  margin-left: 0.5rem;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location:hover {
+  cursor: pointer;
+}

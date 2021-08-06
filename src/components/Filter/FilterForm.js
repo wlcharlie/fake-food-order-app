@@ -3,7 +3,10 @@ import FilterTitle from "./FilterTitle"
 import classes from "./FilterForm.module.css"
 import Button from "../UI/Button"
 
+import { useMediaQuery } from "react-responsive"
+
 const FilterForm = props => {
+  const isWidth768 = useMediaQuery({ query: "(max-width: 768px)" })
   const [isChecked, setIsChecked] = useState({ check: "default" })
   const categoryFilterCheck = event => {
     setIsChecked({ check: event.target.value })
@@ -12,7 +15,7 @@ const FilterForm = props => {
   return (
     <React.Fragment>
       {props.types === "dietLimit" && (
-        <React.Fragment>
+        <div>
           <FilterTitle subTitle="飲食限制" />
           <div className={classes[props.types]}>
             <Button
@@ -34,10 +37,10 @@ const FilterForm = props => {
               context="pig"
             />
           </div>
-        </React.Fragment>
+        </div>
       )}
       {props.types === "priceRange" && (
-        <React.Fragment>
+        <div>
           <FilterTitle subTitle="價格範圍" />
           <div className={classes[props.types]}>
             <Button styles="filterButton" text="$" context="I" />
@@ -45,10 +48,10 @@ const FilterForm = props => {
             <Button styles="filterButton" text="$$$" context="III" />
             <Button styles="filterButton" text="$$$$" context="IV" />
           </div>
-        </React.Fragment>
+        </div>
       )}
       {props.types === "radio" && (
-        <React.Fragment>
+        <div>
           <FilterTitle subTitle="分類" />
           <div className={classes[props.types]}>
             <div>
@@ -96,7 +99,7 @@ const FilterForm = props => {
               <label htmlFor="delivery">配送時間</label>
             </div>
           </div>
-        </React.Fragment>
+        </div>
       )}
     </React.Fragment>
   )

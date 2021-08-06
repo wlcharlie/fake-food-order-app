@@ -5,3 +5,9 @@
   display: grid;
   grid-template-rows: 2fr 1fr;
 }
+
+@media screen and (max-device-width: 768px) {
+  .footer {
+    height: auto;
+  }
+}

@@ -32,3 +32,13 @@
   padding: 0.625rem;
   border-radius: 50%;
 }
+
+@media screen and (max-device-width: 768px) {
+  .container {
+    margin: 2rem 0;
+  }
+
+  .rotate {
+    display: none;
+  }
+}

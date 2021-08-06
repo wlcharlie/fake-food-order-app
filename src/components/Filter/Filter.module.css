@@ -1,5 +1,5 @@
 .contain {
-  padding: 0 10rem 0 3rem;
+  padding: 0 3rem 0 3rem;
 }
 
 .stick {
@@ -11,4 +11,32 @@
 .title {
   font-size: 28px;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-device-width: 1440px) {
+  .contain {
+    padding-right: 8rem;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .contain {
+    padding-right: 6rem;
+  }
+}
+
+@media screen and (max-device-width: 768px) {
+  .contain {
+    padding: 0;
+    margin: 0 2rem;
+  }
+
+  /* todo: pop-up */
+  .gridForm {
+    display: none;
+  }
+}
+
+.popUpForm {
+  text-align: right;
 }

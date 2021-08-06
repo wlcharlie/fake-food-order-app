@@ -1,4 +1,13 @@
 .section {
   display: grid;
-  grid-template-columns: 1fr 2.8fr;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-device-width: 768px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
 }
