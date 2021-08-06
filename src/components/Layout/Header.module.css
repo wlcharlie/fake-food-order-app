@@ -6,7 +6,7 @@
   padding: 0 2vw;
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
   .header {
     display: flex;
     flex-direction: column;

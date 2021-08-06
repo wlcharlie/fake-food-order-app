@@ -11,21 +11,21 @@
   margin: 0 1.5rem 0 0;
 }
 
-@media screen and (max-device-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .restaurant {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .restaurant {
     display: grid;
     grid-template-columns: 1fr;
   }
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
   .restaurant {
     display: flex;
     flex-wrap: wrap;

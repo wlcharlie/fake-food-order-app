@@ -13,19 +13,19 @@
   margin-bottom: 2rem;
 }
 
-@media screen and (max-device-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .contain {
     padding-right: 8rem;
   }
 }
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .contain {
     padding-right: 6rem;
   }
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
   .contain {
     padding: 0;
     margin: 0 2rem;

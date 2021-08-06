@@ -42,7 +42,7 @@ const Card = styled.li`
     padding: 1rem 0 0 1rem;
   }
 
-  @media screen and (max-device-width: 768px) {
+  @media screen and (max-width: 768px) {
     width: calc(90vw - 24px);
     height: 20vw;
 

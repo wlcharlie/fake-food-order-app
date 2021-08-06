@@ -1,4 +1,5 @@
 import { useMediaQuery } from "react-responsive"
+import { isMobile } from "react-device-detect"
 import classes from "./Header.module.css"
 
 import Button from "../UI/Button"
@@ -12,7 +13,7 @@ const Header = () => {
 
   return (
     <nav className={classes.header}>
-      {isWidth768 ? (
+      {isWidth768 || isMobile ? (
         <React.Fragment>
           <div className={classes.upperNav}>
             <Button icon="fas fa-bars fa-lg" />
