@@ -19,4 +19,4 @@
 <img src="./public/images/04.png" width="300">
 <img src="./public/images/03.png" width="300">
 <img src="./public/images/02.png" width="300">
-<img src="./public/images/01.png" width="300">
+<img src="./public/images/01.png" width="600">
