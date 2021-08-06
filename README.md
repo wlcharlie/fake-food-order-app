@@ -10,6 +10,8 @@
 
 [React-responsive](https://www.npmjs.com/package/react-responsive)
 
+[React-device-detect](https://www.npmjs.com/package/react-device-detect)
+
 ### 無限 Slider
 
 \*1024px 以上的效果
