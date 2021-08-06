@@ -64,6 +64,6 @@
 
 @media screen and (max-device-width: 768px) {
   .card {
-    margin-bottom: 0;
+    margin-bottom: 0.8rem;
   }
 }

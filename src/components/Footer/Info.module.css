@@ -27,6 +27,11 @@
   display: flex;
 }
 
+.imagesStore {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-device-width: 768px) {
   .info {
     display: block;

@@ -8,7 +8,7 @@ import Button from "../UI/Button"
 
 const processCategory = (width, data) => {
   const rule = ~~(width / 120)
-  const count = rule > data.length ? data.length : rule < 10 ? 8 : rule
+  const count = rule
 
   return data.slice(0, count).map(e => {
     const text = e

@@ -10,7 +10,7 @@ const Info = () => {
           src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/c266ad32e5e88af804b3a1b6b60098f9.svg"
           alt="logo"
         />
-        <div>
+        <div className={classes.imagesStore}>
           <Img
             center="center"
             size="sized"
