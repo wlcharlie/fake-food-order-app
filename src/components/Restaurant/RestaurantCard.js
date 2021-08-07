@@ -1,4 +1,3 @@
-// TODO:use dummy data~
 import React, { useEffect, useState } from "react"
 import classes from "./RestaurantCard.module.css"
 import { fetchRestaurants } from "../../api/Restaurants"
