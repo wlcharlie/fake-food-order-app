@@ -14,13 +14,13 @@
 
 [Axios]
 
-### 奇特的 API 資料
-
 _外送時間的部分...只能隨機抓裡面的數字去算 XD_
 
 API from Travel Advisor via RapidApi
 
 [LINK](https://rapidapi.com/apidojo/api/travel-advisor/)
+
+---
 
 ### 無限 Slider
 
@@ -35,6 +35,9 @@ API from Travel Advisor via RapidApi
 - 1440px~
 
 <img src="./public/images/04.png" width="300">
+
 <img src="./public/images/03.png" width="300">
+
 <img src="./public/images/02.png" width="900">
+
 <img src="./public/images/01.png" width="900">
