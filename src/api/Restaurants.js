@@ -14,7 +14,7 @@ const options = {
     lang: "en_US",
   },
   headers: {
-    "x-rapidapi-key": process.env.API_KEY,
+    "x-rapidapi-key": process.env.REACT_APP_API_KEY,
     "x-rapidapi-host": "travel-advisor.p.rapidapi.com",
   },
 }
