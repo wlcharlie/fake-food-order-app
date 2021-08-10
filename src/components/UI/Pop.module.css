@@ -1,0 +1,65 @@
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  background-color: white;
+  position: fixed;
+  top: 9vh;
+  left: calc(50vw - 460px / 2);
+  width: 460px;
+  height: 384px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.grid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0.25fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-gap: 15px;
+  padding: 1.5rem 1rem;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.grid h2 {
+  font-size: 36px;
+  font-weight: lighter;
+  margin: 0 0 0 8px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  padding: 0 0 0 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.flex_text {
+  display: flex;
+  align-items: center;
+}
+
+.flex_text h4 {
+  font-weight: lighter;
+  margin-left: 20px;
+}
+
+.done {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+}

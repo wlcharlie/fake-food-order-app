@@ -1,3 +1,4 @@
+import React, { useState } from "react"
 import { useMediaQuery } from "react-responsive"
 import { isMobile } from "react-device-detect"
 import classes from "./Header.module.css"
@@ -5,14 +6,24 @@ import classes from "./Header.module.css"
 import Button from "../UI/Button"
 import Input from "../UI/Input"
 import Img from "../UI/Img"
-import React from "react"
 import ButtonPopUp from "../UI/ButtonPopUp"
+import Pop from "../UI/Pop"
 
 const Header = () => {
   const isWidth768 = useMediaQuery({ query: "(max-width: 768px" })
+  const [modal, setModal] = useState(null)
+
+  const locationEvent = event => {
+    setModal("location")
+  }
+
+  const closeEvent = event => {
+    setModal(null)
+  }
 
   return (
     <nav className={classes.header}>
+      {modal === "location" && <Pop onClick={closeEvent} />}
       {isWidth768 || isMobile ? (
         <React.Fragment>
           <div className={classes.upperNav}>
@@ -44,6 +55,7 @@ const Header = () => {
             icon="fas fa-map-marker-alt"
             text="太原路三段306號"
             time="Now"
+            onClick={locationEvent}
           />
           <div />
           <Input
