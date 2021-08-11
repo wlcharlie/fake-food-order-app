@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/fake-food-order-app/static/css/main.3b93c6a8.chunk.css",
-    "main.js": "/fake-food-order-app/static/js/main.3297882d.chunk.js",
-    "main.js.map": "/fake-food-order-app/static/js/main.3297882d.chunk.js.map",
+    "main.css": "/fake-food-order-app/static/css/main.b3a8f300.chunk.css",
+    "main.js": "/fake-food-order-app/static/js/main.d6ae51e3.chunk.js",
+    "main.js.map": "/fake-food-order-app/static/js/main.d6ae51e3.chunk.js.map",
     "runtime-main.js": "/fake-food-order-app/static/js/runtime-main.da21c10b.js",
     "runtime-main.js.map": "/fake-food-order-app/static/js/runtime-main.da21c10b.js.map",
-    "static/js/2.69d6e254.chunk.js": "/fake-food-order-app/static/js/2.69d6e254.chunk.js",
-    "static/js/2.69d6e254.chunk.js.map": "/fake-food-order-app/static/js/2.69d6e254.chunk.js.map",
+    "static/js/2.289bf47f.chunk.js": "/fake-food-order-app/static/js/2.289bf47f.chunk.js",
+    "static/js/2.289bf47f.chunk.js.map": "/fake-food-order-app/static/js/2.289bf47f.chunk.js.map",
     "index.html": "/fake-food-order-app/index.html",
-    "static/css/main.3b93c6a8.chunk.css.map": "/fake-food-order-app/static/css/main.3b93c6a8.chunk.css.map",
-    "static/js/2.69d6e254.chunk.js.LICENSE.txt": "/fake-food-order-app/static/js/2.69d6e254.chunk.js.LICENSE.txt",
+    "static/css/main.b3a8f300.chunk.css.map": "/fake-food-order-app/static/css/main.b3a8f300.chunk.css.map",
+    "static/js/2.289bf47f.chunk.js.LICENSE.txt": "/fake-food-order-app/static/js/2.289bf47f.chunk.js.LICENSE.txt",
     "static/media/korean.png": "/fake-food-order-app/static/media/korean.49bb6a03.png"
   },
   "entrypoints": [
     "static/js/runtime-main.da21c10b.js",
-    "static/js/2.69d6e254.chunk.js",
-    "static/css/main.3b93c6a8.chunk.css",
-    "static/js/main.3297882d.chunk.js"
+    "static/js/2.289bf47f.chunk.js",
+    "static/css/main.b3a8f300.chunk.css",
+    "static/js/main.d6ae51e3.chunk.js"
   ]
 }
