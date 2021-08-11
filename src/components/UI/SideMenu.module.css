@@ -1,0 +1,45 @@
+.sideMenu {
+  height: 100vh;
+  width: 15.5vw;
+  background-color: white;
+  position: fixed;
+  left: -15.5vw;
+  z-index: 100;
+  transition: left 0.2s;
+}
+
+.show {
+  left: 0;
+}
+
+.contain {
+  margin: 1.2rem 1.5rem;
+}
+
+.contain h6 {
+  margin: 0 0 1.2rem 0;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.login {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  padding: 1.2rem 0;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sideMenu {
+    top: 0;
+    width: 60vw;
+    left: -60vw;
+  }
+
+  .show {
+    top: 0;
+    left: 0;
+  }
+}

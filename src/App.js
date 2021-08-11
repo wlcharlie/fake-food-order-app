@@ -7,6 +7,15 @@ import Footer from "./components/Layout/Footer"
 import React from "react"
 import RestaurantCard from "./components/Restaurant/RestaurantCard"
 import Restaurant from "./components/Restaurant/Restaurant"
+import Login from "./components/admin/Login"
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  BrowserRouter,
+} from "react-router-dom"
 
 const category = [
   "deals",
@@ -157,7 +166,7 @@ const promos = [
   },
 ]
 
-function App() {
+const Home = () => {
   return (
     <React.Fragment>
       <Header />
@@ -171,6 +180,21 @@ function App() {
       </MainTwoSection>
       <Footer />
     </React.Fragment>
+  )
+}
+
+function App() {
+  return (
+    <BrowserRouter basename="/fake-food-order-app">
+      <Switch>
+        <Route path="/admin">
+          <Login />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   )
 }
 

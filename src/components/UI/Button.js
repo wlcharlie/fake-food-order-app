@@ -119,11 +119,7 @@ const Button = props => {
             props.styles === "cart" && classes.cartRight
           }`}
         >
-          <button
-            className={classes[props.styles]}
-            data-type={props.styles}
-            onClick={props.onClick}
-          >
+          <button className={classes[props.styles]} onClick={props.onClick}>
             {props.image && (
               <img
                 src={

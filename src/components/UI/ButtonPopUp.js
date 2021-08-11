@@ -6,7 +6,7 @@ const ButtonPopUp = props => {
   return (
     <React.Fragment>
       {props.styles === "location" && (
-        <div className={classes.location}>
+        <div className={classes.location} onClick={props.onClick}>
           <span>現在．中興路225號</span>
           <i className="fas fa-chevron-down"></i>
         </div>

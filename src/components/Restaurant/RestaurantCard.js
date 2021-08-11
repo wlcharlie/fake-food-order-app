@@ -6,7 +6,6 @@ const RestaurantCard = () => {
   const [data, setData] = useState(null)
   useEffect(async () => {
     const res = await fetchRestaurants()
-    await console.log(res.data.data)
     await setData(res.data.data)
   }, [])
 
@@ -39,7 +38,7 @@ const RestaurantCard = () => {
                   <div>
                     <h3>{e.name}</h3>
                     <h6>
-                      <i class="fas fa-ticket-alt" />
+                      <i className="fas fa-ticket-alt" />
                       {`．${e.num_reviews * 5}-${e.num_reviews * 10}分鐘．${
                         e.price_level.split("-")[0] || "$"
                       }`}
